@@ -1,0 +1,14 @@
+//NAME: DORCAS KYENI 
+REG NO: S08-8435-2024
+public class Main {
+    public static void main(String[] args) {
+
+        // Create two CoffeeOrder objects
+        CoffeeOrder order1 = new CoffeeOrder("Large", 4.50);
+        CoffeeOrder order2 = new CoffeeOrder("Small", 2.80);
+
+        // Display details of each order
+        order1.displayOrder();
+        order2.displayOrder();
+    }
+}
