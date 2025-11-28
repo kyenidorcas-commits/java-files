@@ -1,0 +1,48 @@
+NAME: DORCAS KYENI 
+REG NO:S08-8435-2024
+
+import java.util.Scanner;
+
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+
+        // Create a Product object
+
+        Product p = new Product("Laptop", 50000);
+
+
+
+        Scanner sc = new Scanner(System.in);
+
+
+
+        // Ask user for discount percentage
+
+        System.out.print("Enter discount percentage: ");
+
+        double discount = sc.nextDouble();
+
+
+
+        // Apply discount
+
+        p.applyDiscount(discount);
+
+
+
+        // Display new price
+
+        System.out.println("New price after discount: " + p.getPrice());
+
+
+
+        sc.close();
+
+    }
+
+}
