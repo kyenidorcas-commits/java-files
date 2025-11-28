@@ -1,0 +1,21 @@
+//NAME: DORCAS KYENI 
+//REG NO:S08-8435-2024
+
+public class CoffeeOrder {
+    // Attributes
+    private String size;
+    private double price;
+
+    // Constructor
+    public CoffeeOrder(String size, double price) {
+        this.size = size;
+        this.price = price;
+    }
+
+    // Method to display details
+    public void displayOrder() {
+        System.out.println("Coffee Size: " + size);
+        System.out.println("Price: $" + price);
+        System.out.println("-----------------------");
+    }
+}
