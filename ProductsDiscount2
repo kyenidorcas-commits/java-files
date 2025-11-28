@@ -1,0 +1,25 @@
+NAME: DORCAS KYENI 
+REG NO: S08-8435-2024
+
+public class Product {
+    // Private attributes
+    private String name;
+    private double price;
+
+    // Constructor
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    // Method to apply a discount
+    public void applyDiscount(double percentage) {
+        double discountAmount = price * (percentage / 100);
+        price = price - discountAmount; // reduce price
+    }
+
+    // Method that returns updated price
+    public double getPrice() {
+        return price;
+    }
+}
